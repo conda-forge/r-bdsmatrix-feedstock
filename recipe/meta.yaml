@@ -46,13 +46,8 @@ about:
   license: LGPL-2
   summary: This is a special case of sparse matrices, used by coxme.
   license_family: LGPL
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/LGPL-2'
 
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
-    - dbast
