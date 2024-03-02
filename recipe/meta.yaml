@@ -41,7 +41,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=bdsmatrix
-  license: LGPL-2
+  license: LGPL-2.0-only
   summary: This is a special case of sparse matrices, used by coxme.
   license_family: LGPL
   license_file:
