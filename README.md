@@ -9,7 +9,7 @@ About r-bdsmatrix
 
 Home: https://CRAN.R-project.org/package=bdsmatrix
 
-Package license: LGPL-2
+Package license: LGPL-2.0-only
 
 Summary: This is a special case of sparse matrices, used by coxme.
 
@@ -18,7 +18,7 @@ About r-bdsmatrix
 
 Home: https://CRAN.R-project.org/package=bdsmatrix
 
-Package license: LGPL-2
+Package license: LGPL-2.0-only
 
 Summary: This is a special case of sparse matrices, used by coxme.
 
