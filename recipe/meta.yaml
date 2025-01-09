@@ -12,7 +12,7 @@ source:
   sha256: c3505e5ac06d5e01b3a6bad94177f8375cd9867bb0146cc9c63d92424ecb7922
 
 build:
-  number: 1
+  number: 2
   rpaths:
     - lib/R/lib/
     - lib/
@@ -28,6 +28,7 @@ requirements:
     - {{ posix }}sed               # [win]
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
+    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
   run:
@@ -42,7 +43,6 @@ about:
   home: https://CRAN.R-project.org/package=bdsmatrix
   license: LGPL-2.0-only
   summary: This is a special case of sparse matrices, used by coxme.
-  license_family: LGPL
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/LGPL-2
 
